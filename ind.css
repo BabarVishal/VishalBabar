@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+   
+}
+
+
+.fist{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+}
+
+.fist img{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+
+.second{
+    display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+font-size: 25px;
+font-weight: 900;
+color:black;
+}
+
+.three{
+    display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+font-size: 25px;
+font-weight: 900;
+color:black;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.four{
+    display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+font-size: 30px;
+font-weight: 900;
+color:blue;
+}
+.five{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+   
+}
+
+.five img{
+    height: 200px;
+    width: 200px;
+}
+
+.five button{
+    height: 200px;
+    width: 400px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    border: none;
+    margin-top: 20px;
+}
+.five button:hover{
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width:500px){
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+       
+    }
+
+    body,html{
+        height: 100%;
+        width: 100%;
+       
+    }
+    .fist{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+        }
+        
+        .fist img{
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+        }
+
+        .second{
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color:black;
+        }
+        .three{
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color:black;
+        margin-left: 20px;
+        margin-right: 20px;
+        }
+       
+        .four{
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        font-size: 25px;
+        font-weight: 900;
+        color:blue;
+        }
+
+        .five{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+         
+           
+        }
+        
+        .five img{
+            height: 200px;
+            width: 200px;
+        }
+        
+        .five button{
+            height: 200px;
+            width: 300px;
+          
+            background-color: aliceblue;
+          
+        }
+        .git{
+            margin-top: 50px;
+        }
+      
+}
